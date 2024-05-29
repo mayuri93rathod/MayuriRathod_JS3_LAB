@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'montserrat', sans-serif;
+    background-image: url('weather.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    background-color: #cccccc; 
+    background-position: center; 
+    color: rgb(67, 67, 102);
+   
+  }
+  
+  #searchBar{
+      font-size: large;
+      padding: 4px;
+      opacity: 0.6;
+      width: 300px;
+      border-radius: 7px 0px 7px 0px;
+      color: blue;
+      border-bottom: 4px solid yellowgreen;
+  }
+
+  div{
+    margin: 60px 500px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .box{
+    margin : 20px;
+  }
+
+  #avgTemp{
+    font-weight: bolder;
+    font-size: 3em;
+  }
+
+  #city{
+    font-stretch:extra-expanded;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
